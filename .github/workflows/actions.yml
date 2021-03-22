@@ -8,7 +8,7 @@ jobs:
   steps:
     - name: simple js action
       id: greet
-      uses: actions/hello-world-javascript-action@v1
+      uses: actions/hello-world-javascript-action@main
       with:
         who-to-greet: germione
     - name: log greeting time
